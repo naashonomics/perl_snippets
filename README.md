@@ -8,11 +8,14 @@ Help : # perdoc for any command help
 Read from file:
 
 Method: 1
+
+```
 my $filename = "linesfile.txt";  
 open(FH, $filename);    # open the file
 my @lines = <FH>;       # read the file
 close(FH);              # close the file
-  
+```
+
 Method 2:
 use IO::File;
 
