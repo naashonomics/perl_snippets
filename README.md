@@ -106,3 +106,45 @@ Perl also supports compound assigment
 $a += 100
 #coumpounds both additonal operator with assignment operator 
 ```
+
+Block and Scope
+
+
+ Example 1 
+```
+my $alpha = 'alpha';
+my $beta = 'beta';
+my $charlie = 'charlie';
+
+func();
+
+sub func {
+    foreach my $x ( $alpha, $beta, $charlie ) {
+        say $x;
+    }
+}
+#O/P
+# alpha 
+# beta
+# charlie
+```
+
+ Example 2
+```
+my $alpha = 'alpha';
+my $beta = 'beta';
+my $charlie = 'charlie';
+
+func();
+
+sub func {
+    my $beta = 'new-beta';
+    foreach my $x ( $alpha, $beta, $charlie ) {
+        say $x;
+    }
+}
+#O/P
+# alpha 
+# new-beta
+# charlie
+```
