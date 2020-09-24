@@ -94,3 +94,15 @@ Semicolon is used to separate statements. A statement is an instruction to the c
 ```
  say "Hello";
 ```
+
+Assigment : = servers as simple assigmnet operator in perl 
+```
+my $a=10;
+#my keyword gives  variable local space in file 
+```
+
+Perl also supports compound assigment 
+```
+$a += 100
+#coumpounds both additonal operator with assignment operator 
+```
