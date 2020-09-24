@@ -36,7 +36,9 @@ $fh->close;
 print("There are $count lines in $filename\n");
 
 Method 3: 
+
 # entry point
+
 sub main
 {
     my $filename = shift || "linesfile.txt";
@@ -45,6 +47,7 @@ sub main
 }
 
 # countlines ( filename ) - count the lines in a file
+
 # returns the number of lines
 sub countlines
 {
@@ -66,6 +69,7 @@ sub countlines
 }
 
 # error ( string ) - display an error message and exit
+
 sub error
 {
     my $e = shift || 'unkown error';
