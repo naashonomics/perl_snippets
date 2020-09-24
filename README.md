@@ -17,8 +17,9 @@ close(FH);              # close the file
 ```
 
 Method 2:
-use IO::File;
 
+```
+use IO::File;
 my $filename = "linesfile.txt"; # the name of the file
 
 # open the file - with simple error reporting
@@ -37,9 +38,11 @@ while( $fh->getline ) {
 # close and print
 $fh->close;
 print("There are $count lines in $filename\n");
+```
 
 Method 3: 
 
+```
 # entry point
 
 sub main
@@ -79,3 +82,4 @@ sub error
     say "$0: $e";
     exit 0;
 }
+```
