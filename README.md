@@ -89,8 +89,7 @@ sub error
 ```
  my $filename = shift || "linesfile.txt";
 ```
-
- a semicolon is used to separate statements.
+Semicolon is used to separate statements.
  
   
 ```
