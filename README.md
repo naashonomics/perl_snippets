@@ -1,5 +1,5 @@
 # perl_snippets
 
-# for commonets no multiline comments 
+Comments : # single line only  for commonets no multiline comments 
 
-# perdoc for any command help 
+Help : # perdoc for any command help 
