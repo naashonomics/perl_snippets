@@ -86,6 +86,13 @@ sub error
 
  An expression is anything that returns a value
  
- '''
+```
  my $filename = shift || "linesfile.txt";
- '''
+```
+
+ a semicolon is used to separate statements.
+ 
+  
+```
+ say "Hello";
+```
