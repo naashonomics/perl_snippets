@@ -84,12 +84,11 @@ sub error
 }
 ```
 
- An expression is anything that returns a value
- 
+ An expression is anything that returns a value , In Perl an expression is anything that returns a value. In practice, just about everything in Perl returns a value. 
 ```
  my $filename = shift || "linesfile.txt";
 ```
-Semicolon is used to separate statements.
+Semicolon is used to separate statements. A statement is an instruction to the computer to do something. These concepts overlap quite a bit in Perl, but that's expected given the nature of Perl.
  
   
 ```
