@@ -168,15 +168,10 @@ $scalar =
  3> Hash holds an associative series of values 
  
     ```
-    %hash = 
-    ```
-    
-    ```
     my %hash = ( one => 'uno', two => 'dos', three => 'tres', four => 'quatro', five => 'cinco' );
 
-        while( my ($k, $v) = each %hash ) {
-        say "$k -> $v";
-    }
+    while( my ($k, $v) = each %hash ) {
+    say "$k -> $v";}
     ```
     
 #  PERL References 
