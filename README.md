@@ -283,3 +283,14 @@ for( my $count = 0; $array[$count]; ++$count ) {
     say "$count: $array[$count]";
 }
 ```
+
+# special  Variables 
+
+# default 
+
+```
+$_ = 'Hello';
+
+print;
+```
+
