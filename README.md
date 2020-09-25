@@ -228,3 +228,16 @@ else {
 }
 
 ``` 
+
+# Negative Conditional 
+```
+my $x = 7;
+my $y = 1;
+
+unless ($x==7){
+    say "unless"
+} 
+else {
+    say "else"
+}
+```
