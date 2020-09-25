@@ -155,14 +155,18 @@ sub func {
 # Basic Perl Storage Types
 
 1> Scalar holds a single value
-    ```
-    $scalar = 
-    ```
+```
+$scalar = 
+```
+    
  2> Array Holds a Series of values 
+ 
      ```
     @Array = 
     ```
+    
  3> Hash holds an associative series of values 
+ 
       ```
     %hash = 
     ```
