@@ -273,6 +273,13 @@ say $x > $y ? 'x' : 'y' ;
 #while
 
 #until 
+
+#next 
+
+#last 
+
+#continue 
+
 ```
 my $x = 'three';
 my @array = qw( one two three four five );
