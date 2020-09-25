@@ -323,3 +323,20 @@ sub better_number {
 }
 
 ```
+
+# The system error variable
+
+```
+my $filename = 'notfound.txt';
+
+if (-e $filename ) {
+
+    say 'found!';
+} else {
+    my $errorstring =  $! ;
+    my $errornumber = $! + 0 ;
+    say "error: $errornumber  $errorstring"; 
+}
+```
+
+# Other Special Vairables 
