@@ -182,3 +182,19 @@ A scalar that refers to an another object
     $rarray = \@array
     $rhash =\%hash
     ```
+
+# Constant Pragma 
+
+ 
+```
+use constant PI => 3.141592653589793238462643383279;
+use constant TRUE => 1;
+use constant FALSE => '';
+
+say PI;
+
+if (TRUE) {
+    say 'true';
+} else {
+    say 'false';
+```
