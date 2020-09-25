@@ -1,13 +1,13 @@
 # perl_snippets
 
-Comments : # single line only  for commonets no multiline comments 
+# Comments : # single line only  for commonets no multiline comments 
 
-Help : # perdoc for any command help 
+# Help : # perdoc for any command help 
 
 
-Read from file:
+# Read from file:
 
-Method: 1
+# Method: 1
 
 ```
 my $filename = "linesfile.txt";  
@@ -16,7 +16,7 @@ my @lines = <FH>;       # read the file
 close(FH);              # close the file
 ```
 
-Method 2:
+# Method 2:
 
 ```
 use IO::File;
@@ -40,7 +40,7 @@ $fh->close;
 print("There are $count lines in $filename\n");
 ```
 
-Method 3: 
+# Method 3: 
 
 ```
 # entry point
@@ -95,7 +95,7 @@ Semicolon is used to separate statements. A statement is an instruction to the c
  say "Hello";
 ```
 
-Assigment : = servers as simple assigmnet operator in perl 
+# Assigment : = servers as simple assigmnet operator in perl 
 ```
 my $a=10;
 #my keyword gives  variable local space in file 
