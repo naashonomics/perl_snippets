@@ -354,3 +354,13 @@ if ( $s =~ /line/ ) {
     say 'False';
 }
 ```
+
+# pre compiled regular expression 
+
+```
+my $s = "This is a line of text";
+my $re = qr/line/;
+say $s =~ $re ? 'True' : 'Flase'
+```
+
+
