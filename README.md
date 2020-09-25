@@ -266,19 +266,7 @@ say $x > $y ? 'x' : 'y' ;
 
 # Loops
 
-#For 
-
-#Foreach 
-
-#while
-
-#until 
-
-#next 
-
-#last 
-
-#continue 
+# 1> For 2> Foreach 3> while 4> until 5> next 6> last 7> continue 
 
 ```
 my $x = 'three';
