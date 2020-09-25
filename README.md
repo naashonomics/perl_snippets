@@ -263,3 +263,25 @@ my $y = 5;
 
 say $x > $y ? 'x' : 'y' ;
 ```
+
+# Loops
+
+#For 
+#Foreach 
+#while
+#until 
+```
+my $x = 'three';
+my @array = qw( one two three four five );
+
+my $count = 0;
+while ($array[$count]) {
+    say "$count: $array[$count]";
+} continue {
+    ++$count;
+}
+
+for( my $count = 0; $array[$count]; ++$count ) {
+    say "$count: $array[$count]";
+}
+```
