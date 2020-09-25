@@ -241,3 +241,18 @@ else {
     say "else"
 }
 ```
+
+
+# Switch with given and when ( Do not use in production code) 
+
+```
+my $x = 1;
+my $y = 2;
+my $z = 3;
+my $v = $x;
+give ($v) {
+    when ($x) {say $x ;}
+}
+```
+
+
