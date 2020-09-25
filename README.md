@@ -383,3 +383,26 @@ if ( $s =~ /(text)/ ) {
     say 'False';
 }
 ```
+
+
+# What's the difference between Perl's backticks, system, and exec?
+
+# exec : executes a command and never returns. It's like a return statement in a function If the command is not found, exec returns false. It never returns true
+
+```
+my $data2 = exec('ls');
+```
+
+# system : system executes a command and your Perl script is resumed after the command has finished. The return value is the exit status of the command. You can find documentation about it in perlfunc. 
+
+```
+my $data2 = system('ls');
+```
+
+# backticks (`) : Like system, enclosing a command in backticks executes that command and your Perl script is resumed after the command has finished. In contrast to system, the return value is STDOUT of the command 
+
+```
+my $data2 = `ls`;
+```
+
+
