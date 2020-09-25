@@ -198,3 +198,33 @@ if (TRUE) {
 } else {
     say 'false';
 ```
+
+#LOOPS
+
+#if 
+```
+my $x = 1;
+my $y = 1;
+
+if ( $x == 1 ) {
+    say 'true';
+}
+
+``` 
+
+# else and elsif 
+```
+my $x = 1;
+my $y = 1;
+
+if ( $x == 47 ) {
+    say 'true';
+}
+elsif ( $x==6) {
+    say "six";
+} 
+else {
+    say "else";
+}
+
+``` 
