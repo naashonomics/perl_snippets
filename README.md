@@ -184,7 +184,7 @@ A scalar that refers to an another object
     ```
 
 # Constant Pragma 
-
+Perl doesn't actually include Constants in the Definition of the Language. However, the standard Distribution does include a Pragma for this purpose.
  
 ```
 use constant PI => 3.141592653589793238462643383279;
