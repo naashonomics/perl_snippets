@@ -167,8 +167,14 @@ $scalar =
     
  3> Hash holds an associative series of values 
  
-      ```
+    ```
     %hash = 
     ```
 #  PERL References 
 
+A scalar that refers to an another object 
+ 
+    ```
+    $rarray = \@array
+    $rhash =\%hash
+    ```
