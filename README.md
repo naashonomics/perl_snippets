@@ -339,4 +339,18 @@ if (-e $filename ) {
 }
 ```
 
-# Other Special Vairables 
+ 
+
+# Regular Expressions 
+
+# match
+
+```
+my $s = "This is a line of text";
+
+if ( $s =~ /line/ ) {
+    say 'True';
+} else {
+    say 'False';
+}
+```
