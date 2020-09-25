@@ -255,4 +255,11 @@ give ($v) {
 }
 ```
 
+# The ternary conditional operator 
 
+```
+my $x = 1;
+my $y = 5;
+
+say $x > $y ? 'x' : 'y' ;
+```
