@@ -292,5 +292,14 @@ for( my $count = 0; $array[$count]; ++$count ) {
 $_ = 'Hello';
 
 print;
+
+
+func1('one', 'two', 'three');
+
+sub func1 {
+    say 'this is func1';
+    say foreach @_;
+}
+
 ```
 
