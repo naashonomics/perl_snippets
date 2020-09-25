@@ -353,6 +353,15 @@ if ( $s =~ /line/ ) {
 } else {
     say 'False';
 }
+
+#ignore case
+my $s = "This is a line of text";
+
+if ( $s =~ /line/i ) {
+    say 'True';
+} else {
+    say 'False';
+}
 ```
 
 # pre compiled regular expression 
@@ -363,4 +372,14 @@ my $re = qr/line/;
 say $s =~ $re ? 'True' : 'Flase'
 ```
 
+# wildcards
 
+```
+my $s = "This is a line of text";
+
+if ( $s =~ /(text)/ ) {
+    say "Match is: $1";
+} else {
+    say 'False';
+}
+```
