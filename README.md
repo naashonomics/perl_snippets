@@ -384,6 +384,25 @@ if ( $s =~ /(text)/ ) {
 }
 ```
 
+# search and replace 
+
+```
+
+my $s = "This is a line of text";
+
+$s =~ s/line/string/;
+say $s;
+
+```
+
+# spliting String 
+
+
+```
+my $s = "value: another,yet another: one more here";
+
+say foreach split(/[:,]\s*/, $s);
+```
 
 # What's the difference between Perl's backticks, system, and exec?
 
@@ -404,5 +423,6 @@ my $data2 = system('ls');
 ```
 my $data2 = `ls`;
 ```
+
 
 
